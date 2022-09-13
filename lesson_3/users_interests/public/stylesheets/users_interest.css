@@ -1,0 +1,44 @@
+body {
+  background-color: rgba(0, 153, 255, 0.411);
+  text-align: center;
+
+}
+
+.links {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.bottom-section {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+.emails {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.interests {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+}
+
+a {
+  color: blue;
+ 
+}
+
+a:hover {
+  color: red;
+}

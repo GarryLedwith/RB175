@@ -1,0 +1,27 @@
+<div class="emails">
+  <h3>Email:</h3>
+  <%= @email %>
+</div>
+
+<div class="interests">
+  <h3>Interests:</h3>
+  <%= @interests.map(&:capitalize).join(", ") %>
+</div>
+
+<div class="links">
+  <ul>
+    <% @users.each do |user, _| %>
+      <% unless user == @user_name %> 
+      <li>
+        <a href="/<%= user %>"><%= user.to_s.capitalize %></a>
+      </li>
+     <% end %>  
+  <% end %>
+  </ul>
+</div>
+
+
+
+  
+
+

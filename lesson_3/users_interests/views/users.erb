@@ -1,0 +1,9 @@
+<div class="links">
+  <ul>
+    <% @users.each do |user, _| %>
+      <li>
+        <a href="/<%= user %>"><%= user.to_s.capitalize %></a>
+      </li>
+  <% end %>
+  </ul>
+</div>
